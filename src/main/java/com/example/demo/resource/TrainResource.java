@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/train")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://train-station-project.herokuapp.com/")
 public class TrainResource {
 
     @Autowired

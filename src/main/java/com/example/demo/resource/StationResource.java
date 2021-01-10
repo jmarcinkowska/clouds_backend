@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/station")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://train-station-project.herokuapp.com/")
 public class StationResource {
 
     @Autowired
